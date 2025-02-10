@@ -1,9 +1,3 @@
-
-# GClock
-
-GClock is an gRPC web example using Go + ConnectRPC + React
-
-
 # GClock
 
 GClock is an example application using ConnectRPC, Go, React and Typescript
