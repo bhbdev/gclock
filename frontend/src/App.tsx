@@ -1,21 +1,21 @@
 import './App.css';
-import Clock from './components/Clock';
+import Header from './components/Header'
+import BaseLayout from './components/layouts/BaseLayout';
+import ClockContainer from './components/Clock/ClockContainer';
 import { ClientProvider } from "./util/providers/ClientProvider";
+import MainCol from './components/MainCol';
 
 
 
 function App() {
   return (
     <ClientProvider>
-        <div className="App">
-            <header>
-                <h1>GClock</h1>
-                <p>gRPC web example using Go + ConnectRPC + React</p>
-            </header>
-
-            <Clock />
-      
-        </div>
+        <BaseLayout>     
+            <Header />
+            <MainCol>
+                <ClockContainer />
+            </MainCol>
+        </BaseLayout>
     </ClientProvider>
   );
 }

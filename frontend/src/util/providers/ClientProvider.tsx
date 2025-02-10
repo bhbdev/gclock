@@ -24,5 +24,4 @@ const ClientProvider: React.FC<{  children: React.ReactNode}> = ({ children }) =
     );
 }
 
-
 export { ClientContext, ClientProvider };
