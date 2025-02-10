@@ -2,7 +2,7 @@ module github.com/bhbdev/gclock
 
 go 1.23.0
 
-replace github.com/bhbdev/gclock/backend => /Users/beau/home/bhbdev/gclock/backend
+// replace github.com/bhbdev/gclock/backend => /Users/beau/home/bhbdev/gclock/backend
 
 require (
 	connectrpc.com/connect v1.18.1

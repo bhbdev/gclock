@@ -1,8 +1,9 @@
 # GClock
 
-GClock is an example application using ConnectRPC, Go, React and Typescript
+GClock is an example application using ConnectRPC, Go and React
 
 ![Screenshot](assets/screenshot-1.png)
+
 
 
 ## Setup
